@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-6">
-        <input type="text" v-model="searchQuery" placeholder="E.g. crown, navy, resource" class="w-full bg-grey-lighter text-grey-darker rounded p-4 mb-6">
+        <input type="text" v-model="searchQuery" placeholder="E.g. Generic,Army,Navy" class="w-full bg-grey-lighter text-grey-darker rounded p-4 mb-6">
 
         <div class="border-2 border-indigo rounded inline-block">
           <a href="#" @click.prevent="toggleGoalsDisplay" id="goals-toggle" class="inline-block no-underline text-indigo-darker border-r border-indigo p-4 text-center bg-indigo-lightest">National Focus</a><a href="#" @click.prevent="toggleIdeasDisplay" id="ideas-toggle" class="inline-block no-underline text-indigo-darker py-4 px-8 text-center bg-indigo-lightest">Ideas</a>
